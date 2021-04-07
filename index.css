@@ -1,0 +1,86 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "DM Sans", sans-serif;
+  font-size: 18px;
+}
+
+body {
+  background-image: url(./assets/homebg.svg);
+  background-repeat: no-repeat;
+  background-size: 205vh;
+}
+
+header {
+  border-top: 5px #45b6fe solid;
+}
+
+#add-btn {
+  border-color: white;
+  padding: 8px 18px;
+  border-radius: 10px;
+}
+
+#add-btn:hover {
+  background-color: white;
+  color: #212529 !important;
+}
+
+.nav-link:hover {
+  color: #45b6fe !important;
+}
+
+#home-section {
+  padding: 160px 80px;
+  padding-bottom: 250px;
+}
+
+#command-section1 {
+  background-color: #141619;
+  height: 100vh;
+  align-items: center;
+  padding: 200px 0px;
+}
+
+h1 {
+  font-weight: 700 !important;
+}
+
+p {
+  opacity: 0.7;
+}
+
+#basla-btn {
+  border: #45b6fe solid 2px;
+  border-radius: 10px;
+  background-color: #45b6fe;
+  font-weight: 700 !important;
+}
+
+#basla-btn:hover {
+  background-color: #296c95;
+}
+
+#add-home-btn {
+  border: white solid 2px;
+  border-radius: 10px;
+  padding: 8px 18px;
+  font-weight: 700 !important;
+}
+
+#add-home-btn:hover {
+  background-color: white;
+  color: #212529 !important;
+}
+
+#oyun {
+  width: 75%;
+  box-shadow: 5px 10px 18px #0c0d0e;
+}
+
+#oyunhead {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
